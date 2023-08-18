@@ -32,6 +32,7 @@ const Clock = () => {
 
   return (
     <div className={styles.centeralign}> 
+      <h1>はこだて未来大学バス停</h1>
       <h1>現在の時刻</h1>
       <h1>{currentTime.toLocaleTimeString()}</h1>
     </div>
